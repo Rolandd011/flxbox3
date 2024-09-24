@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.top-bar {
+    display: flex;
+    background-color: purple;
+    padding: 10px;
+}
+
+.top-bar .block {
+    background-color: cyan;
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.top-bar .block:last-child {
+    margin-right: 0;
+}
+
+.foag{
+    display: flex;
+    flex-grow: 1;
+}
+
+.sarga {
+    background-color: yellow;
+    flex-grow: 3;
+}
+
+.zold{
+    background-color: green;
+    flex-grow: 1;
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: purple;
+    height: 60px;
+    padding: 0 10px;
+}
+.header div {
+    background-color: cyan;
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+}
+.content {
+    display: flex;
+    flex-grow: 1;
+}
+.sidebar {
+    background-color: green;
+    width: 30%;
+    margin: 10px;
+}
+.main {
+    background-color: yellow;
+    flex-grow: 1;
+    margin: 10px;
+}
+.footer {
+    background-color: gray;
+    height: 50px;
+    margin-top: 10px;
+}
